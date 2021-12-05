@@ -1,0 +1,234 @@
+:root {
+  --primary-text-color: #212121;
+  --description-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-text-color: #fff;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --bg-button-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Лого */
+
+.logo {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-style {
+  color: var(--accent-color);
+}
+
+/* Шапка сайта */
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.contacts-list .contacts {
+  color: var(--description-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts-list .contacts:hover,
+.contacts-list .contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Стили файла index.html */
+/* Герой */
+
+.hero {
+  background-color: var(--secondary-bg-color);
+  text-align: center;
+}
+
+.hero .hero-title {
+  color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+  color: var(--white-text-color);
+}
+
+/* Наши преимущества */
+
+.hidden-section-title {
+  opacity: 0;
+}
+
+.benefits-section .benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefits-section .benefits-description {
+  color: var(--description-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся*/
+
+/* Наша команда */
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-list .team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team-list .team-description {
+  color: var(--description-text-color);
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* Футер */
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.logo-white {
+  color: var(--white-text-color);
+}
+
+.address .address-text {
+  color: var(--white-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address .address-item {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.address .address-item:hover,
+.address .address-item:focus {
+  color: var(--accent-color);
+}
+
+/*Стили файла portfolio.html */
+/* Портфолио наших раобот */
+.buttons-list .portfolio-button {
+  background-color: var(--bg-button-color);
+  color: var(--primary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: none;
+}
+
+.buttons-list .portfolio-button:hover,
+.buttons-list .portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+
+.gallery-list .gallery-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.gallery-list .gallery-description {
+  color: var(--description-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.gallery-link {
+  text-decoration: none;
+}
