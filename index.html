@@ -15,8 +15,9 @@
 </head>
 <body>
 <!-- Шапка сайта-->
-<header>
-    <nav>
+<header class="header">
+    <div class="container nav">
+    <nav class="header-nav">
         <a href="./index.html" class="logo"><span class="logo-style">Web</span>Studio</a>
         <ul class="site-nav list">
             <li><a href="" class="link current">Студия</a></li>
@@ -28,6 +29,7 @@
     <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li>
     <li><a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a></li>
     </ul>
+    </div>
 </header>
 
 <main>
@@ -39,8 +41,9 @@
 
     <!-- Наши преимущества -->
     <section class="benefits-section">
+        <div class="container">
         <h2 class="hidden-section-title">Наши преимущества</h2>
-        <ul class="list">
+        <ul class="list benefits">
             <li>
                 <h3 class="benefits-title">Внимание к деталям</h3>
                 <p class="benefits-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -58,20 +61,24 @@
                 <p class="benefits-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
+        </div>
     </section>
 
     <!-- Чем мы занимаемся -->
     <section class="services-section">
+        <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="services-list list">
             <li><img src="./images/box_1.jpg" alt="Человек работает на клавиатуре перед компьютером и планшетом" width="300"></li>
             <li><img src="./images/box_2.jpg" alt="Человек работает на ноутбуке с телефоном в руках" width="300"></li>
             <li><img src="./images/box_3.jpg" alt="Человек работает на планшете со стилусом в руках" width="300"></li>
         </ul>
+        </div>
     </section>
 
     <!-- Наша команда -->
     <section class="team-section">
+        <div class="container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="team-list list">
             <li>
@@ -95,19 +102,20 @@
                 <p class=team-description>UI Designer</p>
             </li>
         </ul>
+        </div>
     </section>
 
 </main>
 <!-- Футер -->
 <footer class="footer">
-
-    <a href="./index.html" class="logo"><span class="logo-style">Web</span><span class="logo-white">Studio</span></a>
+    <div class="container">
+    <a href="./index.html" class="logo secondary"><span class="logo-style">Web</span><span class="logo-white">Studio</span></a>
     <address class="address">
       <span class="address-text">г. Киев, пр-т Леси Украинки, 26</span><br>
         <a href="mailto:info@example.com" class="address-item">info@example.com</a> <br>
         <a href="tel:+380991111111" class="address-item">+38 099 111 11 11</a>
     </address>
-
+    </div>
 </footer>
 
 </body>
