@@ -416,7 +416,6 @@ img {
 
 .gallery-item {
   flex-basis: calc(100% / 3 - var(--gallery-list-gap));
-  /* width: 380px; */
   margin-right: var(--gallery-list-gap);
   margin-bottom: var(--gallery-list-gap);
 }
