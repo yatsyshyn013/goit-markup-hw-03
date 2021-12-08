@@ -197,8 +197,12 @@ img {
 
 /* Наши преимущества */
 
-.hidden-section-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .benefits-section,
@@ -244,7 +248,6 @@ img {
 
 .services-list {
   display: flex;
-  margin-right: -30px;
 }
 
 .list-item-services:not(:last-child) {
@@ -259,6 +262,9 @@ img {
 }
 .team-list {
   display: flex;
+}
+
+.services-list .list-item {
 }
 
 .team-list .team-title {
@@ -281,13 +287,15 @@ img {
 .team-member-info {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.team-card {
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.list-item img {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Футер */
@@ -410,8 +418,6 @@ img {
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: calc(-1 * var(--gallery-list-gap));
-  margin-bottom: calc(-1 * var(--gallery-list-gap));
 }
 
 .gallery-item {
